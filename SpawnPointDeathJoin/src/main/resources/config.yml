@@ -5,8 +5,17 @@ spawn:
   z: 0.0
   yaw: 0.0
   pitch: 0.0
+
+cleanup:
+  # Seconds between removing all dropped item entities from loaded worlds.
+  ground-items-interval-seconds: 300
+  # Seconds between checking online players for restricted items.
+  illegal-item-check-interval-seconds: 5
+
 messages:
   welcome: '&aWelcome to the server, {player}!'
   farewell: '&eGoodbye, {player}!'
   spawn-set: '&aJoin and death spawn set to your current location.'
   spawn-unset: '&cThe shared spawn is not set yet. An operator can set it with /spawnpointdeathjoin.'
+  ground-items-cleared: '&eCleared {count} dropped items from the ground.'
+  illegal-items-removed: '&cRestricted items (spawners and spawn eggs) were removed from your inventory.'

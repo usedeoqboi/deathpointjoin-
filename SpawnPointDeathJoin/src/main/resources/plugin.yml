@@ -2,7 +2,7 @@ name: SpawnPointDeathJoin
 version: '${version}'
 main: com.example.spawnpointdeathjoin.SpawnPointDeathJoinPlugin
 api-version: '26.2'
-description: Sends players to a chosen location on join and after death, with chat greetings.
+description: Join/death spawn, greetings, ground item cleanup, and restricted item checks.
 commands:
   spawnpointdeathjoin:
     description: Sets the shared join and death spawn to your current location.
