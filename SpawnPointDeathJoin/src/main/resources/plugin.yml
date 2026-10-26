@@ -1,0 +1,14 @@
+name: SpawnPointDeathJoin
+version: '${version}'
+main: com.example.spawnpointdeathjoin.SpawnPointDeathJoinPlugin
+api-version: '26.2'
+description: Sends players to a chosen location on join and after death, with chat greetings.
+commands:
+  spawnpointdeathjoin:
+    description: Sets the shared join and death spawn to your current location.
+    usage: /spawnpointdeathjoin
+    permission: spawnpointdeathjoin.set
+permissions:
+  spawnpointdeathjoin.set:
+    description: Allows setting the shared join and death spawn.
+    default: op

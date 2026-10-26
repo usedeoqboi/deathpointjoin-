@@ -1,0 +1,12 @@
+spawn:
+  world: ''
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+messages:
+  welcome: '&aWelcome to the server, {player}!'
+  farewell: '&eGoodbye, {player}!'
+  spawn-set: '&aJoin and death spawn set to your current location.'
+  spawn-unset: '&cThe shared spawn is not set yet. An operator can set it with /spawnpointdeathjoin.'
